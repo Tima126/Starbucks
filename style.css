@@ -1,0 +1,158 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: 100px;
+    box-shadow: 0 5px 4px -4px rgba(180, 180, 180, 0.582);
+    border-radius: 10px;
+}
+
+.heder-left,
+.heder-right {
+    display: flex;
+    align-items: center;
+}
+
+.heder-left img {
+    align-items: center;
+    width: 75px;
+    margin-right: 40px;
+}
+
+.heder-left a,
+.heder-right a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.heder-left a:hover,
+.find a:hover {
+    color: rgb(17, 122, 17);
+}
+
+.heder-right .find {
+    margin-right: 50px;
+}
+
+.heder-right .Regist {
+    display: flex;
+    gap: 10px;
+}
+
+.heder-right .Regist a {
+    padding: 5px 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.heder-right .Regist .href-Sign {
+    border: 1px solid black;
+}
+
+.heder-right .Regist .href-Login {
+    background-color: black;
+    color: white;
+}
+
+.heder-right .Regist .href-Sign:hover {
+    background-color: rgba(219, 219, 219, 0.521);
+}
+
+.heder-right .Regist .href-Login:hover {
+    background-color: rgba(70, 70, 70, 0.767);
+}
+
+
+/*Карточки товаров*/
+
+
+
+.main {
+    display: flex;
+    background-color: #0b7a55;
+    width: 100%;
+    height: 586;
+    margin-bottom: 20px;
+}
+
+
+
+.imgmain {
+    display: inline-flex;
+    justify-content: center;
+    width: 52%;
+
+}
+
+.imgmain img{
+width: 100%;
+height: auto;
+
+}
+
+.Order {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 1.5px solid rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Order:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+.text p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.text h1{
+justify-content: center;
+margin-bottom: -10px;
+font-size: 60px;
+}
+
+/*Вторая карточка товара*/
+
+
+.vtoroi{
+    display: flex;
+    background-color: #8e0031;
+    width: 100%;
+    height: 586;
+    flex-direction:row-reverse;
+}
+
+.vtoroi .text{
+    margin-left: 50px;
+}
